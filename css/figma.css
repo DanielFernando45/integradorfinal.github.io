@@ -1,0 +1,24 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: #D9D9D9;
+}
+
+.navegador{
+    display: block;
+    background: white;
+    height: 100%;
+    width: 197px;
+}
+
+.contenido{
+    display: block;
+    width: 1162px;
+    height: 100%;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #8BEF85 0%, #19878E 100%);
+}

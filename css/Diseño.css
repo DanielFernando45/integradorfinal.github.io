@@ -1,0 +1,115 @@
+
+.fondo, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: bottom center;
+
+ 
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+
+    display: flex;
+
+    width: 469px;
+    height: 593px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin: 20px;
+}
+
+
+h2 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.input {
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+    width: 80%;
+}
+
+.input-group {
+    display: flex; 
+    margin-bottom: 15px;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+}
+
+label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 0.95em;
+}
+
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #353563;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a3ac1;
+}
+
+
